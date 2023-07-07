@@ -1,11 +1,13 @@
 import Home from "./pages/Home";
-
-function App() {
+import Navbar from "../src/components/Navbar";
+import { CarProvider } from "./context/CarContext";
+const App = () => {
   return (
-    <>
+    <CarProvider>
+      <Navbar />
       <Home />
-    </>
+    </CarProvider>
   );
-}
+};
 
 export default App;
