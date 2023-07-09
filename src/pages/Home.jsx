@@ -18,7 +18,6 @@ const Home = () => {
       <Save />
       <ChooseUs />
       <ReviewSection />
-      <Faq />
       <Downloads />
     </>
   );
