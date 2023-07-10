@@ -82,6 +82,7 @@ const BookingForm = () => {
             </p>
             <input
               required
+              placeholder="dd-mm-yy"
               type="date"
               className="px-5 py-2  font-medium text-gray-400 text-lg border rounded w-full  border-gray-600  "
             />

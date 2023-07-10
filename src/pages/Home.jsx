@@ -5,7 +5,6 @@ import Models from "../components/Models";
 import Save from "../components/Save";
 import ChooseUs from "../components/ChooseUs";
 import ReviewSection from "../components/ReviewSection";
-import Faq from "../components/FAQ";
 import Downloads from "../components/Downloads";
 
 const Home = () => {

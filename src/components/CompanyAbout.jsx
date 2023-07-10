@@ -1,7 +1,7 @@
 const CompanyAbout = () => {
   return (
     <section>
-      <div className="mx-6 flex flex-col lg:flex-row lg:mx-64 md:mx-36 ">
+      <div className="mx-6 flex flex-col xl:flex-row xl:mx-64 md:mx-36 ">
         <img
           src="../src/assets/images/about/about-main.jpg"
           className=" md:mx-6 lg:my-16 lg:mx-0"
@@ -23,7 +23,7 @@ const CompanyAbout = () => {
             <span className="px-9 md:px-0 w-[45%] my-6 md:mx-6">
               <img src="../src/assets/images/about/icon1.png" />
 
-              <span className="flex flex-col items-start mx-auto md:items-center">
+              <span className="flex flex-col items-start mx-auto ">
                 <h3 className="font-extrabold text-6xl">20</h3>
                 <h3 className="text-xl">Car Types</h3>
               </span>
@@ -32,7 +32,7 @@ const CompanyAbout = () => {
             <span className="px-9 md:px-0 w-[45%] my-6 md:mx-6">
               <img src="../src/assets/images/about/icon2.png" />
 
-              <span className="flex flex-col items-start mx-auto md:items-center">
+              <span className="flex flex-col items-start mx-auto ">
                 <h3 className="font-extrabold text-6xl">85</h3>
                 <h3 className="text-xl">Rental Options</h3>
               </span>
@@ -40,7 +40,7 @@ const CompanyAbout = () => {
             <span className="px-9 md:px-0 w-[45%] my-6 md:mx-6">
               <img src="../src/assets/images/about/icon3.png" />
 
-              <span className="flex flex-col items-start mx-auto md:items-center">
+              <span className="flex flex-col items-start mx-auto ">
                 <h3 className="font-extrabold text-6xl">75</h3>
                 <h3 className="text-xl">Repair Shops</h3>
               </span>

@@ -3,7 +3,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 const Footer = () => {
   return (
     <div className="flex bg-slate-50 w-full items-center justify-center mb-20">
-      <footer className="grid  md:grid-cols-2 gap mt-32 lg:w-[90%] grid-cols-1 lg:grid-cols-4">
+      <footer className="grid  md:grid-cols-2 gap mt-32 lg:w-[90%] grid-cols-1 xl:grid-cols-4">
         <div className="flex flex-col mt-6 md:mt-0 ">
           <h3 className="my-1  md:text-start text-center  text-3xl mx-16">
             <span className="font-bold">CAR</span> Rental
@@ -26,7 +26,13 @@ const Footer = () => {
               </span>
             </span>
             <span className="flex items-center md:justify-start  hover:cursor-pointer hover:text-orange-600  mt-3 justify-center ">
-              Designed By Kaif Shaikh
+              <a
+                href="https://github.com/kraggy09"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Designed By Kaif Shaikh
+              </a>
             </span>
           </div>
         </div>

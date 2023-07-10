@@ -6,7 +6,7 @@ import Plan from "../components/Plan";
 const About = () => {
   return (
     <>
-      <Hero />
+      <Hero name={"About"} />
       <CompanyAbout />
       <Plan />
       <Book />

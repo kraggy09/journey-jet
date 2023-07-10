@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -11,12 +12,24 @@ const Navbar = () => {
 
       <div className={`lg:block hidden`}>
         <ul className="flex lg:flex-row flex-col">
-          <li className="px-2">Home</li>
-          <li className="px-2">About</li>
-          <li className="px-2">Vehicle Models</li>
-          <li className="px-2">Testimonials</li>
-          <li className="px-2">Our Team</li>
-          <li className="px-2">Contact</li>
+          <NavLink to="/" className="hover:text-orange-600 px-2">
+            <li>Home</li>
+          </NavLink>
+          <NavLink to="/about" className="hover:text-orange-600 px-2">
+            <li>About</li>
+          </NavLink>
+          <NavLink to="/models" className="hover:text-orange-600 px-2">
+            <li>Vehicle Models</li>
+          </NavLink>
+          <NavLink to="/testimonials" className="hover:text-orange-600 px-2">
+            <li>Testimonials</li>
+          </NavLink>
+          <NavLink to="/team" className="hover:text-orange-600 px-2">
+            <li>Our Team</li>
+          </NavLink>
+          <NavLink to="/contact" className="hover:text-orange-600 px-2">
+            <li>Contact</li>
+          </NavLink>
         </ul>
       </div>
       <div
@@ -41,24 +54,62 @@ const Navbar = () => {
               : ""
           }`}
         >
-          <li className="px-2 my-5 text-xl font-bold hover:border-b-2 ease-in duration-300  hover:border-b-orange-600 hover:cursor-pointer">
-            Home
-          </li>
-          <li className="px-2 my-5 text-xl font-bold hover:border-b-2 ease-in duration-300 hover:border-b-orange-600 hover:cursor-pointer">
-            About
-          </li>
-          <li className="px-2 my-5 text-xl font-bold hover:border-b-2 ease-in duration-300 hover:border-b-orange-600 hover:cursor-pointer">
-            Vehicle Models
-          </li>
-          <li className="px-2 my-5 text-xl font-bold hover:border-b-2 ease-in duration-300 hover:border-b-orange-600 hover:cursor-pointer">
-            Testimonials
-          </li>
-          <li className="px-2 my-5 text-xl font-bold hover:border-b-2 ease-in duration-300 hover:border-b-orange-600 hover:cursor-pointer">
-            Our Team
-          </li>
-          <li className="px-2 my-5 text-xl font-bold hover:border-b-2 ease-in duration-300 hover:border-b-orange-600 hover:cursor-pointer">
-            Contact Us
-          </li>
+          <NavLink
+            to="/"
+            onClick={() => {
+              setNav(!nav);
+            }}
+            className="px-2 my-5 text-xl font-bold hover:text-orange-600 ease-in duration-300 hover:cursor-pointer"
+          >
+            <li>Home</li>
+          </NavLink>
+          <NavLink
+            onClick={() => {
+              setNav(!nav);
+            }}
+            to="/about"
+            className="px-2 my-5 text-xl font-bold hover:text-orange-600 ease-in duration-300 hover:cursor-pointer"
+          >
+            <li>About</li>
+          </NavLink>
+          <NavLink
+            onClick={() => {
+              setNav(!nav);
+            }}
+            to="/models"
+            className="px-2 my-5 text-xl font-bold hover:text-orange-600 ease-in duration-300 hover:cursor-pointer"
+          >
+            <li>Vehicle Models</li>
+          </NavLink>
+          <NavLink
+            onClick={() => {
+              setNav(!nav);
+            }}
+            to="/testimonials"
+            className="px-2 my-5 text-xl font-bold hover:text-orange-600 ease-in duration-300 hover:cursor-pointer"
+          >
+            <li>Testimonials</li>
+          </NavLink>
+
+          <NavLink
+            onClick={() => {
+              setNav(!nav);
+            }}
+            to="/team"
+            className="px-2 my-5 text-xl font-bold hover:text-orange-600 ease-in duration-300 hover:cursor-pointer"
+          >
+            <li>Our Team</li>
+          </NavLink>
+
+          <NavLink
+            onClick={() => {
+              setNav(!nav);
+            }}
+            to="/contact"
+            className="px-2 my-5 text-xl font-bold hover:text-orange-600 ease-in duration-300 hover:cursor-pointer"
+          >
+            <li>Contact</li>
+          </NavLink>
         </ul>
       </div>
       <div
