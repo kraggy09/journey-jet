@@ -42,11 +42,11 @@ const HeroMain = () => {
       </div>
       <img
         className="lg:block absolute hidden right-0 -z-10 -top-10"
-        src="./src/assets/images/hero/hero-bg.png"
+        src="/assets/images/hero/hero-bg.png"
         alt="hero-main-bg"
       />
       <img
-        src="./src/assets/images/hero/main-car.png"
+        src="/assets/images/hero/main-car.png"
         className="lg:block absolute hidden lg:w-[50%] xl:w-[55%] mt-20 right-20 -z-10 top-20"
       />
     </div>

@@ -3,7 +3,7 @@ const CompanyAbout = () => {
     <section>
       <div className="mx-6 flex flex-col xl:flex-row xl:mx-64 md:mx-36 ">
         <img
-          src="../src/assets/images/about/about-main.jpg"
+          src="/assets/images/about/about-main.jpg"
           className=" md:mx-6 lg:my-16 lg:mx-0"
         />
         <span className="flex w-full  flex-col lg:mt-0 mt-10 lg:mb-0 lg:mx-16 mb-10">
@@ -21,7 +21,7 @@ const CompanyAbout = () => {
           </p>
           <div className="flex flex-col md:flex-row w-full justify-center items-center mt-16">
             <span className="px-9 md:px-0 w-[45%] my-6 md:mx-6">
-              <img src="../src/assets/images/about/icon1.png" />
+              <img src="/assets/images/about/icon1.png" />
 
               <span className="flex flex-col items-start mx-auto ">
                 <h3 className="font-extrabold text-6xl">20</h3>
@@ -30,7 +30,7 @@ const CompanyAbout = () => {
             </span>
 
             <span className="px-9 md:px-0 w-[45%] my-6 md:mx-6">
-              <img src="../src/assets/images/about/icon2.png" />
+              <img src="/assets/images/about/icon2.png" />
 
               <span className="flex flex-col items-start mx-auto ">
                 <h3 className="font-extrabold text-6xl">85</h3>
@@ -38,7 +38,7 @@ const CompanyAbout = () => {
               </span>
             </span>
             <span className="px-9 md:px-0 w-[45%] my-6 md:mx-6">
-              <img src="../src/assets/images/about/icon3.png" />
+              <img src="/assets/images/about/icon3.png" />
 
               <span className="flex flex-col items-start mx-auto ">
                 <h3 className="font-extrabold text-6xl">75</h3>

@@ -7,7 +7,7 @@ const ReviewSection = () => {
       review:
         "We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable. ",
       name: "Harry Potter",
-      img: "../src/assets/images/testimonials/pfp1.jpg",
+      img: "/assets/images/testimonials/pfp1.jpg",
       location: "Mumbai",
     },
     {
@@ -15,7 +15,7 @@ const ReviewSection = () => {
       review:
         "Awesome Experience!! The car was in great condition and made our trip even better. Highly recommend for this car rental website!",
       name: "Ron Rizly",
-      img: "../src/assets/images/testimonials/pfp2.jpg",
+      img: "/assets/images/testimonials/pfp2.jpg",
       location: "Kolkata",
     },
   ];

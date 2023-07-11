@@ -3,7 +3,7 @@ const Downloads = () => {
     <div className="w-[90%] relative">
       <img
         className="hidden md:block md:-right-32 bottom-0 absolute"
-        src="../src/assets/images/banners/bg02.png"
+        src="/assets/images/banners/bg02.png"
       />
       <div className="lg:w-[40%] xl:pt-36 md:w-[60%] md:mx-6 lg:mx-16 ">
         <h2 className="my-6 md:my-3 md:pb-3 lg:pb-9 text-center xl:text-6xl lg:text-5xl md:text-4xl pt-20 md:pt-0 md:text-start text-4xl mx-8 md:mx-0 font-bold">

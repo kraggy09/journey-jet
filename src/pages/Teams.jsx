@@ -6,37 +6,37 @@ const Teams = () => {
   const members = [
     {
       id: 1,
-      img: "../src/assets/images/team/1.png",
+      img: "../assets/images/team/1.png",
       name: "Luke Miller",
       pos: "Salesman",
     },
     {
       id: 2,
-      img: "../src/assets/images/team/2.png",
+      img: "../assets/images/team/2.png",
       name: "Michael Diaz",
       pos: "Business Owner",
     },
     {
       id: 3,
-      img: "../src/assets/images/team/3.png",
+      img: "../assets/images/team/3.png",
       name: "Briana Ross",
       pos: "Photographer",
     },
     {
       id: 4,
-      img: "../src/assets/images/team/4.png",
+      img: "../assets/images/team/4.png",
       name: "Lauren Rivera",
       pos: "Car Dentalist",
     },
     {
       id: 5,
-      img: "../src/assets/images/team/5.png",
+      img: "../assets/images/team/5.png",
       name: "Martin Rizz",
       pos: "Mechanic",
     },
     {
       id: 6,
-      img: "../src/assets/images/team/6.png",
+      img: "../assets/images/team/6.png",
       name: "Caitlyn Hunt",
       pos: "Manager",
     },

@@ -3,7 +3,7 @@ import { AiOutlineRight } from "react-icons/ai";
 const ChooseUs = () => {
   return (
     <div className="flex flex-col w-full mt-12 items-center justify-center">
-      <img src="../src/assets/images/chooseUs/main.png" />
+      <img src="/assets/images/chooseUs/main.png" />
       <span className="flex md:justify-around lg:flex-row flex-col items-center">
         <span className="lg:w-[500px] xl:mr-32">
           <h3 className="mt-2 text-center lg:text-start lg:text-2xl text-xl font-bold">
@@ -27,7 +27,7 @@ const ChooseUs = () => {
           <div className=" my-4 md:my-10 md:flex md:justify-center md:items-center">
             <img
               className="mx-auto md:mx-0"
-              src="../src/assets/images/chooseUs/icon1.png"
+              src="/assets/images/chooseUs/icon1.png"
             />
             <span className="md:w-72 lg:ml-4">
               <h1 className="text-center lg:text-start md:text-2xl font-bold text-xl">
@@ -42,7 +42,7 @@ const ChooseUs = () => {
           <div className=" my-4 md:my-10 md:flex md:justify-center md:items-center">
             <img
               className="mx-auto md:mx-0"
-              src="../src/assets/images/chooseUs/icon2.png"
+              src="/assets/images/chooseUs/icon2.png"
             />
             <span className="md:w-72 lg:ml-4">
               <h1 className="text-center lg:text-start md:text-2xl font-bold text-xl">
@@ -57,7 +57,7 @@ const ChooseUs = () => {
           <div className=" my-4 md:my-10 md:flex md:justify-center md:items-center">
             <img
               className="mx-auto md:mx-0"
-              src="../src/assets/images/chooseUs/icon3.png"
+              src="/assets/images/chooseUs/icon3.png"
             />
             <span className="md:w-72 lg:ml-4">
               <h1 className="text-center lg:text-start md:text-2xl font-bold text-xl">

@@ -11,10 +11,7 @@ const Plan = () => {
       </span>
       <span className="flex flex-col lg:flex-row">
         <span className="flex flex-col items-center my-6 justify-center">
-          <img
-            className="animate-pulse"
-            src="../src/assets/images/plan/icon1.png"
-          />
+          <img className="animate-pulse" src="/assets/images/plan/icon1.png" />
           <h1 className="text-3xl text-center font-extrabold mt-2 mx-16">
             Select Car
           </h1>
@@ -24,10 +21,7 @@ const Plan = () => {
           </h3>
         </span>
         <span className="flex flex-col items-center my-6 justify-center">
-          <img
-            className="animate-pulse"
-            src="../src/assets/images/plan/icon2.png"
-          />
+          <img className="animate-pulse" src="/assets/images/plan/icon2.png" />
           <h1 className="text-3xl text-center font-extrabold mt-2 mx-16">
             Contact Operator
           </h1>
@@ -37,10 +31,7 @@ const Plan = () => {
           </h3>
         </span>
         <span className="flex flex-col items-center my-6 justify-center">
-          <img
-            className="animate-pulse"
-            src="../src/assets/images/plan/icon3.png"
-          />
+          <img className="animate-pulse" src="/assets/images/plan/icon3.png" />
           <h1 className="text-3xl text-center font-extrabold mt-2 mx-16">
             Let`s Drive
           </h1>
