@@ -31,7 +31,7 @@ const Footer = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                Designed By Kaif Shaikh
+                Designed with ❤️
               </a>
             </span>
           </div>
