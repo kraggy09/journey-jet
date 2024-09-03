@@ -68,7 +68,7 @@ const ContactDetails = () => {
             htmlFor="tell_us"
             className="mx-auto lg:mx-0 text-lg font-bold my-6 lg:my-3"
           >
-            Full Name <code className="text-orange-600">*</code>
+            Message <code className="text-orange-600">*</code>
           </label>
           <textarea
             className="w-[85%] pt-3 text-gray-400 bg-gray-100 text-lg pl-6 tex-gray-400  mx-auto lg:mx-0 resize-none"
