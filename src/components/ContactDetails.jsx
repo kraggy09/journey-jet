@@ -44,7 +44,7 @@ const ContactDetails = () => {
           <input
             type="text"
             className="w-[85%] bg-gray-100 text-lg pl-6 tex-gray-400 py-3 mx-auto lg:mx-0"
-            placeholder={`E.g. "Kaif Shaikh" `}
+            placeholder={`E.g. "John Doe" `}
             name="full_name"
             id=""
           />
